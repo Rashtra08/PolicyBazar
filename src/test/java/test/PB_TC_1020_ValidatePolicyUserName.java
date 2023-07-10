@@ -43,11 +43,11 @@ public class PB_TC_1020_ValidatePolicyUserName extends Base
 		login.clickOnSignInButtonHomePage();
 		Utility.Wait(1000);
 		login.enterMobileNumber(Utility.readingDataFromProperty("mobNum"));
-		Utility.Wait(1000);
+		Utility.Wait(2000);
 		login.clickOnsignInWithPassword();
-		Utility.Wait(1000);
+		Utility.Wait(2000);
 		login.enterPasswordField(Utility.readingDataFromProperty("pwd"));
-		Utility.Wait(1000);
+		Utility.Wait(2000);
 		login.clickOnsignInBtn();
 		Utility.Wait(1000);
 		login.clickOnMyAccount();
